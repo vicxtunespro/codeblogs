@@ -6,12 +6,17 @@
     "dev": "next dev",
     "build": "next build",
     "start": "next start",
-    "lint": "next lint"
+    "lint": "next lint",
+    "styles": "sass --watch ./public/main.scss ./app/support.css"
   },
   "dependencies": {
+    "alpinejs": "^3.14.1",
+    "daisyui": "^4.12.10",
+    "framer-motion": "^11.3.29",
+    "next": "14.2.6",
     "react": "^18",
     "react-dom": "^18",
-    "next": "14.2.6"
+    "sass": "^1.77.8"
   },
   "devDependencies": {
     "postcss": "^8",
